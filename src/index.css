@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://i.pinimg.com/736x/37/6d/e2/376de2c46d63c8dd7189ba3885812f2e.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* White background with some transparency */
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center; /* Ensures text is centered */
+  text-transform: capitalize; /* Capitalizes first letter of each word */
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+ 
+ ol{
+  padding: 0;
+ }
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
